@@ -116,3 +116,8 @@ span{
 span:hover{
   color: var(--dark-blue);
 }
+
+/* Container */
+.container{
+  margin: 32px 10vw;
+}
