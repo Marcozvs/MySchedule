@@ -1,0 +1,31 @@
+.task{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+  width: 400px;
+  height: max-content;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.task:hover{
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.task_importance{
+  width: 16px;
+  height: 16px;
+  background-color: #AC0000;
+  border-radius: 50%;
+}
+
+.task__actions{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 16px;
+}
+
+

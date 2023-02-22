@@ -103,3 +103,16 @@ button{
 button:hover{
   background-color: var(--dark-blue);
 }
+
+/* Span */
+
+span{
+  font-size: 1.5rem;
+  color: var(--light-blue);
+  cursor: pointer;
+  transition: .25s;
+}
+
+span:hover{
+  color: var(--dark-blue);
+}
